@@ -1,0 +1,470 @@
+2022-05-06/09:55
+UID        PID  PPID  C STIME TTY          TIME CMD
+omar       768   757  0 09:55 pts/2    00:00:00 bash projet.sh -m
+omar       778   768  0 09:55 pts/2    00:00:00 ps au
+omar       779   768  0 09:55 pts/2    00:00:00 ps -af
+root       780   768  0 09:55 pts/2    00:00:00 sudo cp log.txt /var/log/surveillance.log
+gdm        934   915  0 ماي05 tty1  00:00:00 /usr/lib/gnome-session/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+gdm        962   934  0 ماي05 tty1  00:00:51 /usr/bin/gnome-shell
+gdm       1141   962  0 ماي05 tty1  00:00:00 /usr/bin/Xwayland :1024 -rootless -terminate -accessx -core -listen 4 -listen 5 -displayfd 6
+gdm       1400   962  0 ماي05 tty1  00:00:00 ibus-daemon --xim --panel disable
+gdm       1403  1400  0 ماي05 tty1  00:00:00 /usr/lib/ibus/ibus-dconf
+gdm       1407     1  0 ماي05 tty1  00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+gdm       1428   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+gdm       1434   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+gdm       1436   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+gdm       1439   934  0 ماي05 tty1  00:00:12 /usr/lib/gnome-settings-daemon/gsd-color
+gdm       1441   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+gdm       1443   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+gdm       1446   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+gdm       1450   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+gdm       1451   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+gdm       1452   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-power
+gdm       1455   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+gdm       1458   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+gdm       1460   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+gdm       1463   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+gdm       1465   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+gdm       1470   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sound
+gdm       1471   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+gdm       1520  1400  0 ماي05 tty1  00:00:00 /usr/lib/ibus/ibus-engine-simple
+omar      5511  5508  0 ماي05 tty2  00:05:11 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+omar      5542  5508  0 ماي05 tty2  00:00:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+omar      5665  5542  2 ماي05 tty2  00:21:05 /usr/bin/gnome-shell
+omar      5698  5665  0 ماي05 tty2  00:00:10 ibus-daemon --xim --panel disable
+omar      5702  5698  0 ماي05 tty2  00:00:00 /usr/lib/ibus/ibus-dconf
+omar      5705     1  0 ماي05 tty2  00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+omar      5779  5542  0 ماي05 tty2  00:00:01 /usr/lib/gnome-settings-daemon/gsd-power
+omar      5781  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+omar      5782  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+omar      5784  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+omar      5787  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+omar      5792  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+omar      5794  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sound
+omar      5797  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+omar      5808  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+omar      5813  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+omar      5814  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+omar      5816  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+omar      5819  5542  0 ماي05 tty2  00:00:02 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+omar      5821  5542  0 ماي05 tty2  00:00:13 /usr/lib/gnome-settings-daemon/gsd-color
+omar      5827  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+omar      5830  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+omar      5831  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+omar      5850     1  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-printer
+omar      5877  5542  0 ماي05 tty2  00:00:22 nautilus-desktop
+omar      5878  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-disk-utility/gsd-disk-utility-notify
+omar      5881  5542  0 ماي05 tty2  00:00:14 /usr/bin/gnome-software --gapplication-service
+omar      6013  5698  0 ماي05 tty2  00:00:02 /usr/lib/ibus/ibus-engine-simple
+omar      8060  5542  0 ماي05 tty2  00:00:01 update-notifier
+omar     10485  5542  0 ماي05 tty2  00:00:00 /usr/lib/deja-dup/deja-dup-monitor
+omar     31985 31976  0 08:50 pts/0    00:00:00 bash projet.sh -m
+omar     32192 32184  0 09:09 pts/1    00:00:00 bash projet.sh -m
+2022-05-06/10:04
+UID        PID  PPID  C STIME TTY          TIME CMD
+gdm        934   915  0 ماي05 tty1  00:00:00 /usr/lib/gnome-session/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+omar       940   930  0 10:02 pts/2    00:00:00 bash projet.sh -m
+gdm        962   934  0 ماي05 tty1  00:00:51 /usr/bin/gnome-shell
+omar       972   964  0 10:04 pts/3    00:00:00 bash projet.sh -m
+omar       978   972  0 10:04 pts/3    00:00:00 ps au
+omar       979   972  0 10:04 pts/3    00:00:00 ps -af
+root       980   972  0 10:04 pts/3    00:00:00 sudo cp log.txt /var/log/surveillance.log
+gdm       1141   962  0 ماي05 tty1  00:00:00 /usr/bin/Xwayland :1024 -rootless -terminate -accessx -core -listen 4 -listen 5 -displayfd 6
+gdm       1400   962  0 ماي05 tty1  00:00:00 ibus-daemon --xim --panel disable
+gdm       1403  1400  0 ماي05 tty1  00:00:00 /usr/lib/ibus/ibus-dconf
+gdm       1407     1  0 ماي05 tty1  00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+gdm       1428   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+gdm       1434   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+gdm       1436   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+gdm       1439   934  0 ماي05 tty1  00:00:13 /usr/lib/gnome-settings-daemon/gsd-color
+gdm       1441   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+gdm       1443   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+gdm       1446   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+gdm       1450   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+gdm       1451   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+gdm       1452   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-power
+gdm       1455   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+gdm       1458   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+gdm       1460   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+gdm       1463   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+gdm       1465   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+gdm       1470   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sound
+gdm       1471   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+gdm       1520  1400  0 ماي05 tty1  00:00:00 /usr/lib/ibus/ibus-engine-simple
+omar      5511  5508  0 ماي05 tty2  00:05:26 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+omar      5542  5508  0 ماي05 tty2  00:00:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+omar      5665  5542  2 ماي05 tty2  00:22:06 /usr/bin/gnome-shell
+omar      5698  5665  0 ماي05 tty2  00:00:10 ibus-daemon --xim --panel disable
+omar      5702  5698  0 ماي05 tty2  00:00:00 /usr/lib/ibus/ibus-dconf
+omar      5705     1  0 ماي05 tty2  00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+omar      5779  5542  0 ماي05 tty2  00:00:01 /usr/lib/gnome-settings-daemon/gsd-power
+omar      5781  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+omar      5782  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+omar      5784  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+omar      5787  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+omar      5792  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+omar      5794  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sound
+omar      5797  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+omar      5808  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+omar      5813  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+omar      5814  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+omar      5816  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+omar      5819  5542  0 ماي05 tty2  00:00:02 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+omar      5821  5542  0 ماي05 tty2  00:00:13 /usr/lib/gnome-settings-daemon/gsd-color
+omar      5827  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+omar      5830  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+omar      5831  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+omar      5850     1  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-printer
+omar      5877  5542  0 ماي05 tty2  00:00:23 nautilus-desktop
+omar      5878  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-disk-utility/gsd-disk-utility-notify
+omar      5881  5542  0 ماي05 tty2  00:00:14 /usr/bin/gnome-software --gapplication-service
+omar      6013  5698  0 ماي05 tty2  00:00:02 /usr/lib/ibus/ibus-engine-simple
+omar      8060  5542  0 ماي05 tty2  00:00:01 update-notifier
+omar     10485  5542  0 ماي05 tty2  00:00:00 /usr/lib/deja-dup/deja-dup-monitor
+omar     31985 31976  0 08:50 pts/0    00:00:00 bash projet.sh -m
+omar     32192 32184  0 09:09 pts/1    00:00:00 bash projet.sh -m
+2022-05-06/10:08
+UID        PID  PPID  C STIME TTY          TIME CMD
+gdm        934   915  0 ماي05 tty1  00:00:00 /usr/lib/gnome-session/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+gdm        962   934  0 ماي05 tty1  00:00:51 /usr/bin/gnome-shell
+omar      1032  1018  0 10:06 pts/2    00:00:00 bash projet.sh -m
+omar      1042  1032  0 10:08 pts/2    00:00:00 ps au
+omar      1043  1032  0 10:08 pts/2    00:00:00 ps -af
+gdm       1141   962  0 ماي05 tty1  00:00:00 /usr/bin/Xwayland :1024 -rootless -terminate -accessx -core -listen 4 -listen 5 -displayfd 6
+gdm       1400   962  0 ماي05 tty1  00:00:00 ibus-daemon --xim --panel disable
+gdm       1403  1400  0 ماي05 tty1  00:00:00 /usr/lib/ibus/ibus-dconf
+gdm       1407     1  0 ماي05 tty1  00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+gdm       1428   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+gdm       1434   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+gdm       1436   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+gdm       1439   934  0 ماي05 tty1  00:00:13 /usr/lib/gnome-settings-daemon/gsd-color
+gdm       1441   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+gdm       1443   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+gdm       1446   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+gdm       1450   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+gdm       1451   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+gdm       1452   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-power
+gdm       1455   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+gdm       1458   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+gdm       1460   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+gdm       1463   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+gdm       1465   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+gdm       1470   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sound
+gdm       1471   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+gdm       1520  1400  0 ماي05 tty1  00:00:00 /usr/lib/ibus/ibus-engine-simple
+omar      5511  5508  0 ماي05 tty2  00:05:35 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+omar      5542  5508  0 ماي05 tty2  00:00:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+omar      5665  5542  2 ماي05 tty2  00:22:37 /usr/bin/gnome-shell
+omar      5698  5665  0 ماي05 tty2  00:00:11 ibus-daemon --xim --panel disable
+omar      5702  5698  0 ماي05 tty2  00:00:00 /usr/lib/ibus/ibus-dconf
+omar      5705     1  0 ماي05 tty2  00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+omar      5779  5542  0 ماي05 tty2  00:00:01 /usr/lib/gnome-settings-daemon/gsd-power
+omar      5781  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+omar      5782  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+omar      5784  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+omar      5787  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+omar      5792  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+omar      5794  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sound
+omar      5797  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+omar      5808  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+omar      5813  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+omar      5814  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+omar      5816  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+omar      5819  5542  0 ماي05 tty2  00:00:02 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+omar      5821  5542  0 ماي05 tty2  00:00:13 /usr/lib/gnome-settings-daemon/gsd-color
+omar      5827  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+omar      5830  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+omar      5831  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+omar      5850     1  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-printer
+omar      5877  5542  0 ماي05 tty2  00:00:23 nautilus-desktop
+omar      5878  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-disk-utility/gsd-disk-utility-notify
+omar      5881  5542  0 ماي05 tty2  00:00:14 /usr/bin/gnome-software --gapplication-service
+omar      6013  5698  0 ماي05 tty2  00:00:02 /usr/lib/ibus/ibus-engine-simple
+omar      8060  5542  0 ماي05 tty2  00:00:01 update-notifier
+omar     10485  5542  0 ماي05 tty2  00:00:00 /usr/lib/deja-dup/deja-dup-monitor
+omar     31985 31976  0 08:50 pts/0    00:00:00 bash projet.sh -m
+omar     32192 32184  0 09:09 pts/1    00:00:00 bash projet.sh -m
+2022-05-06/10:28
+              total       utilisé      libre     partagé tamp/cache   disponible
+Mem:        4039880     1519452     1529524       20832      990904     2220000
+Partition d'échange:      622036       57100      564936
+Total:      4661916     1576552     2094460
+2022-05-06/10:28
+              total       utilisé      libre     partagé tamp/cache   disponible
+Mem:        4039880     1519180     1529648       20828      991052     2220272
+Partition d'échange:      622036       57100      564936
+Total:      4661916     1576280     2094584
+2022-05-06/10:32
+              total       utilisé      libre     partagé tamp/cache   disponible
+Mem:        4039880     1467864     1580768       20832      991248     2271584
+Partition d'échange:      622036       57100      564936
+Total:      4661916     1524964     2145704
+2022-05-06/10:38
+2022-05-06/10:43
+2022-05-06/10:48
+              total       utilisé      libre     partagé tamp/cache   disponible
+Mem:        4039880     1470384     1574828       20832      994668     2269096
+Partition d'échange:      622036       57100      564936
+Total:      4661916     1527484     2139764
+2022-05-06/10:48
+UID        PID  PPID  C STIME TTY          TIME CMD
+gdm        934   915  0 ماي05 tty1  00:00:00 /usr/lib/gnome-session/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+gdm        962   934  0 ماي05 tty1  00:00:52 /usr/bin/gnome-shell
+gdm       1141   962  0 ماي05 tty1  00:00:00 /usr/bin/Xwayland :1024 -rootless -terminate -accessx -core -listen 4 -listen 5 -displayfd 6
+gdm       1400   962  0 ماي05 tty1  00:00:00 ibus-daemon --xim --panel disable
+gdm       1403  1400  0 ماي05 tty1  00:00:00 /usr/lib/ibus/ibus-dconf
+gdm       1407     1  0 ماي05 tty1  00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+gdm       1428   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+gdm       1434   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+gdm       1436   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+gdm       1439   934  0 ماي05 tty1  00:00:13 /usr/lib/gnome-settings-daemon/gsd-color
+gdm       1441   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+gdm       1443   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+gdm       1446   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+gdm       1450   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+gdm       1451   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+gdm       1452   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-power
+gdm       1455   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+gdm       1458   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+gdm       1460   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+gdm       1463   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+gdm       1465   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+gdm       1470   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sound
+gdm       1471   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+gdm       1520  1400  0 ماي05 tty1  00:00:00 /usr/lib/ibus/ibus-engine-simple
+omar      2365  2357  0 10:48 pts/2    00:00:00 bash projet.sh -m
+omar      2380  2365  0 10:48 pts/2    00:00:00 ps -af
+omar      5511  5508  0 ماي05 tty2  00:06:13 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+omar      5542  5508  0 ماي05 tty2  00:00:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+omar      5665  5542  2 ماي05 tty2  00:24:47 /usr/bin/gnome-shell
+omar      5698  5665  0 ماي05 tty2  00:00:12 ibus-daemon --xim --panel disable
+omar      5702  5698  0 ماي05 tty2  00:00:00 /usr/lib/ibus/ibus-dconf
+omar      5705     1  0 ماي05 tty2  00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+omar      5779  5542  0 ماي05 tty2  00:00:01 /usr/lib/gnome-settings-daemon/gsd-power
+omar      5781  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+omar      5782  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+omar      5784  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+omar      5787  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+omar      5792  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+omar      5794  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sound
+omar      5797  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+omar      5808  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+omar      5813  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+omar      5814  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+omar      5816  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+omar      5819  5542  0 ماي05 tty2  00:00:02 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+omar      5821  5542  0 ماي05 tty2  00:00:13 /usr/lib/gnome-settings-daemon/gsd-color
+omar      5827  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+omar      5830  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+omar      5831  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+omar      5850     1  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-printer
+omar      5877  5542  0 ماي05 tty2  00:00:24 nautilus-desktop
+omar      5878  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-disk-utility/gsd-disk-utility-notify
+omar      5881  5542  0 ماي05 tty2  00:00:14 /usr/bin/gnome-software --gapplication-service
+omar      6013  5698  0 ماي05 tty2  00:00:03 /usr/lib/ibus/ibus-engine-simple
+omar      8060  5542  0 ماي05 tty2  00:00:02 update-notifier
+omar     10485  5542  0 ماي05 tty2  00:00:00 /usr/lib/deja-dup/deja-dup-monitor
+omar     31985 31976  0 09:00 pts/0    00:00:00 bash projet.sh -m
+omar     32192 32184  0 09:20 pts/1    00:00:00 bash projet.sh -m
+2022-05-06/10:48
+2022-05-06/10:50
+UID        PID  PPID  C STIME TTY          TIME CMD
+gdm        934   915  0 ماي05 tty1  00:00:00 /usr/lib/gnome-session/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+gdm        962   934  0 ماي05 tty1  00:00:52 /usr/bin/gnome-shell
+gdm       1141   962  0 ماي05 tty1  00:00:00 /usr/bin/Xwayland :1024 -rootless -terminate -accessx -core -listen 4 -listen 5 -displayfd 6
+gdm       1400   962  0 ماي05 tty1  00:00:00 ibus-daemon --xim --panel disable
+gdm       1403  1400  0 ماي05 tty1  00:00:00 /usr/lib/ibus/ibus-dconf
+gdm       1407     1  0 ماي05 tty1  00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+gdm       1428   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+gdm       1434   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+gdm       1436   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+gdm       1439   934  0 ماي05 tty1  00:00:13 /usr/lib/gnome-settings-daemon/gsd-color
+gdm       1441   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+gdm       1443   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+gdm       1446   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+gdm       1450   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+gdm       1451   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+gdm       1452   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-power
+gdm       1455   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+gdm       1458   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+gdm       1460   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+gdm       1463   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+gdm       1465   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+gdm       1470   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sound
+gdm       1471   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+gdm       1520  1400  0 ماي05 tty1  00:00:00 /usr/lib/ibus/ibus-engine-simple
+omar      2419  2411  0 10:49 pts/2    00:00:00 bash projet.sh -m
+omar      2427  2419  0 10:50 pts/2    00:00:00 ps au
+omar      2428  2419  0 10:50 pts/2    00:00:00 ps -af
+root      2429  2419  0 10:50 pts/2    00:00:00 sudo cp log.txt /var/log/surveillance.log
+omar      5511  5508  0 ماي05 tty2  00:06:15 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+omar      5542  5508  0 ماي05 tty2  00:00:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+omar      5665  5542  2 ماي05 tty2  00:24:54 /usr/bin/gnome-shell
+omar      5698  5665  0 ماي05 tty2  00:00:12 ibus-daemon --xim --panel disable
+omar      5702  5698  0 ماي05 tty2  00:00:00 /usr/lib/ibus/ibus-dconf
+omar      5705     1  0 ماي05 tty2  00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+omar      5779  5542  0 ماي05 tty2  00:00:01 /usr/lib/gnome-settings-daemon/gsd-power
+omar      5781  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+omar      5782  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+omar      5784  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+omar      5787  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+omar      5792  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+omar      5794  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sound
+omar      5797  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+omar      5808  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+omar      5813  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+omar      5814  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+omar      5816  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+omar      5819  5542  0 ماي05 tty2  00:00:02 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+omar      5821  5542  0 ماي05 tty2  00:00:13 /usr/lib/gnome-settings-daemon/gsd-color
+omar      5827  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+omar      5830  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+omar      5831  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+omar      5850     1  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-printer
+omar      5877  5542  0 ماي05 tty2  00:00:24 nautilus-desktop
+omar      5878  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-disk-utility/gsd-disk-utility-notify
+omar      5881  5542  0 ماي05 tty2  00:00:14 /usr/bin/gnome-software --gapplication-service
+omar      6013  5698  0 ماي05 tty2  00:00:03 /usr/lib/ibus/ibus-engine-simple
+omar      8060  5542  0 ماي05 tty2  00:00:02 update-notifier
+omar     10485  5542  0 ماي05 tty2  00:00:00 /usr/lib/deja-dup/deja-dup-monitor
+omar     31985 31976  0 09:00 pts/0    00:00:00 bash projet.sh -m
+omar     32192 32184  0 09:20 pts/1    00:00:00 bash projet.sh -m
+2022-05-06/10:52
+              total       utilisé      libre     partagé tamp/cache   disponible
+Mem:        4039880     1467260     1577524       19840      995096     2273220
+Partition d'échange:      622036       57100      564936
+Total:      4661916     1524360     2142460
+2022-05-06/10:52
+2022-05-06/10:52
+UID        PID  PPID  C STIME TTY          TIME CMD
+gdm        934   915  0 ماي05 tty1  00:00:00 /usr/lib/gnome-session/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+gdm        962   934  0 ماي05 tty1  00:00:52 /usr/bin/gnome-shell
+gdm       1141   962  0 ماي05 tty1  00:00:00 /usr/bin/Xwayland :1024 -rootless -terminate -accessx -core -listen 4 -listen 5 -displayfd 6
+gdm       1400   962  0 ماي05 tty1  00:00:00 ibus-daemon --xim --panel disable
+gdm       1403  1400  0 ماي05 tty1  00:00:00 /usr/lib/ibus/ibus-dconf
+gdm       1407     1  0 ماي05 tty1  00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+gdm       1428   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+gdm       1434   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+gdm       1436   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+gdm       1439   934  0 ماي05 tty1  00:00:13 /usr/lib/gnome-settings-daemon/gsd-color
+gdm       1441   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+gdm       1443   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+gdm       1446   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+gdm       1450   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+gdm       1451   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+gdm       1452   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-power
+gdm       1455   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+gdm       1458   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+gdm       1460   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+gdm       1463   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+gdm       1465   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+gdm       1470   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sound
+gdm       1471   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+gdm       1520  1400  0 ماي05 tty1  00:00:00 /usr/lib/ibus/ibus-engine-simple
+omar      2743  2735  0 10:52 pts/2    00:00:00 bash projet.sh -m
+omar      2769  2743  0 10:52 pts/2    00:00:00 ps au
+omar      2770  2743  0 10:52 pts/2    00:00:00 ps -af
+omar      5511  5508  0 ماي05 tty2  00:06:21 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+omar      5542  5508  0 ماي05 tty2  00:00:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+omar      5665  5542  2 ماي05 tty2  00:25:10 /usr/bin/gnome-shell
+omar      5698  5665  0 ماي05 tty2  00:00:12 ibus-daemon --xim --panel disable
+omar      5702  5698  0 ماي05 tty2  00:00:00 /usr/lib/ibus/ibus-dconf
+omar      5705     1  0 ماي05 tty2  00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+omar      5779  5542  0 ماي05 tty2  00:00:01 /usr/lib/gnome-settings-daemon/gsd-power
+omar      5781  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+omar      5782  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+omar      5784  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+omar      5787  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+omar      5792  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+omar      5794  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sound
+omar      5797  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+omar      5808  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+omar      5813  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+omar      5814  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+omar      5816  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+omar      5819  5542  0 ماي05 tty2  00:00:02 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+omar      5821  5542  0 ماي05 tty2  00:00:13 /usr/lib/gnome-settings-daemon/gsd-color
+omar      5827  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+omar      5830  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+omar      5831  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+omar      5850     1  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-printer
+omar      5877  5542  0 ماي05 tty2  00:00:24 nautilus-desktop
+omar      5878  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-disk-utility/gsd-disk-utility-notify
+omar      5881  5542  0 ماي05 tty2  00:00:14 /usr/bin/gnome-software --gapplication-service
+omar      6013  5698  0 ماي05 tty2  00:00:03 /usr/lib/ibus/ibus-engine-simple
+omar      8060  5542  0 ماي05 tty2  00:00:02 update-notifier
+omar     10485  5542  0 ماي05 tty2  00:00:00 /usr/lib/deja-dup/deja-dup-monitor
+omar     31985 31976  0 09:00 pts/0    00:00:00 bash projet.sh -m
+omar     32192 32184  0 09:20 pts/1    00:00:00 bash projet.sh -m
+2022-05-06/10:54
+              total       utilisé      libre     partagé tamp/cache   disponible
+Mem:        4039880     1466400     1578284       19836      995196     2274080
+Partition d'échange:      622036       57100      564936
+Total:      4661916     1523500     2143220
+2022-05-06/10:54
+UID        PID  PPID  C STIME TTY          TIME CMD
+gdm        934   915  0 ماي05 tty1  00:00:00 /usr/lib/gnome-session/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+gdm        962   934  0 ماي05 tty1  00:00:52 /usr/bin/gnome-shell
+gdm       1141   962  0 ماي05 tty1  00:00:00 /usr/bin/Xwayland :1024 -rootless -terminate -accessx -core -listen 4 -listen 5 -displayfd 6
+gdm       1400   962  0 ماي05 tty1  00:00:00 ibus-daemon --xim --panel disable
+gdm       1403  1400  0 ماي05 tty1  00:00:00 /usr/lib/ibus/ibus-dconf
+gdm       1407     1  0 ماي05 tty1  00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+gdm       1428   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+gdm       1434   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+gdm       1436   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+gdm       1439   934  0 ماي05 tty1  00:00:13 /usr/lib/gnome-settings-daemon/gsd-color
+gdm       1441   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+gdm       1443   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+gdm       1446   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+gdm       1450   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+gdm       1451   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+gdm       1452   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-power
+gdm       1455   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+gdm       1458   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+gdm       1460   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+gdm       1463   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+gdm       1465   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+gdm       1470   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sound
+gdm       1471   934  0 ماي05 tty1  00:00:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+gdm       1520  1400  0 ماي05 tty1  00:00:00 /usr/lib/ibus/ibus-engine-simple
+omar      2806  2798  0 10:54 pts/2    00:00:00 bash projet.sh -m
+omar      2819  2806  0 10:54 pts/2    00:00:00 ps au
+omar      2820  2806  0 10:54 pts/2    00:00:00 ps -af
+root      2821  2806  0 10:54 pts/2    00:00:00 sudo cp log.txt /var/log/surveillance.log
+omar      5511  5508  0 ماي05 tty2  00:06:24 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+omar      5542  5508  0 ماي05 tty2  00:00:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+omar      5665  5542  2 ماي05 tty2  00:25:22 /usr/bin/gnome-shell
+omar      5698  5665  0 ماي05 tty2  00:00:12 ibus-daemon --xim --panel disable
+omar      5702  5698  0 ماي05 tty2  00:00:00 /usr/lib/ibus/ibus-dconf
+omar      5705     1  0 ماي05 tty2  00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+omar      5779  5542  0 ماي05 tty2  00:00:01 /usr/lib/gnome-settings-daemon/gsd-power
+omar      5781  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+omar      5782  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+omar      5784  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+omar      5787  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+omar      5792  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+omar      5794  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-sound
+omar      5797  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+omar      5808  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+omar      5813  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+omar      5814  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+omar      5816  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+omar      5819  5542  0 ماي05 tty2  00:00:02 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+omar      5821  5542  0 ماي05 tty2  00:00:13 /usr/lib/gnome-settings-daemon/gsd-color
+omar      5827  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+omar      5830  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+omar      5831  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+omar      5850     1  0 ماي05 tty2  00:00:00 /usr/lib/gnome-settings-daemon/gsd-printer
+omar      5877  5542  0 ماي05 tty2  00:00:24 nautilus-desktop
+omar      5878  5542  0 ماي05 tty2  00:00:00 /usr/lib/gnome-disk-utility/gsd-disk-utility-notify
+omar      5881  5542  0 ماي05 tty2  00:00:14 /usr/bin/gnome-software --gapplication-service
+omar      6013  5698  0 ماي05 tty2  00:00:03 /usr/lib/ibus/ibus-engine-simple
+omar      8060  5542  0 ماي05 tty2  00:00:02 update-notifier
+omar     10485  5542  0 ماي05 tty2  00:00:00 /usr/lib/deja-dup/deja-dup-monitor
+omar     31985 31976  0 09:00 pts/0    00:00:00 bash projet.sh -m
+omar     32192 32184  0 09:20 pts/1    00:00:00 bash projet.sh -m
+2022-05-06/11:05
+              total       utilisé      libre     partagé tamp/cache   disponible
+Mem:        4039880     1516716     1527796       19840      995368     2223764
+Partition d'échange:      622036       57100      564936
+Total:      4661916     1573816     2092732
