@@ -1,5 +1,5 @@
 
-system-monitor: [-h|--help] [-T] [-t] [-n] [-N] [-d] [-m] [-s] chemin..
+system-monitor: 
 	Options:
 	• -f:	appelle une fonction qui affiche les quantités totales de mémoire et de zone de
 		swap libres et utilisées et stocke le résultat dans un fichier de trace 
